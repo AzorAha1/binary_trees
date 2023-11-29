@@ -4,11 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-<<<<<<< HEAD
-
-=======
 #define max(a, b) ((a) > (b) ? (a) : (b))
->>>>>>> main
 /**
 * struct binary_tree_s - Binary tree node
 *
