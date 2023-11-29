@@ -1,6 +1,6 @@
 PROJECT TITLE: 0x1D. C - Binary trees
 
-WHAT ARE BINARY TREES? 
+WHAT ARE BINARY TREES?
 Well...There are "trees" that represent a parent node that has two nodes fromt it known as left child and right child.
 
 Properties of binary trees
@@ -15,7 +15,7 @@ COMMON OPERATIONS IN BINARY TREES
 
 Note: Binary trees use recursion, this helps in reducing the time complexity of running a program
 
-Have Fun!!!! 
+Have Fun!!!!
 
 P.S. AUTHORS: Alinafe Nene Chiwaya - MALAWIAN
             : Faisal Mohammed Adam - NIGERIAN
