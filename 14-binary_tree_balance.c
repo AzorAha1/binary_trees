@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-
+#define max(a, b) ((a) > (b) ? (a) : (b))
 /**
 * binary_tree_balance - checks balance factor
 * @tree: Pointer to the root node
