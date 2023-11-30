@@ -29,14 +29,22 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	if (!tree)
 	{
-		return (1);
+		return (0);
 	}
 	leftheight = height(tree->left);
 	rightheight = height(tree->right);
-	if (leftheight != rightheight)
+	if (leftheight == rightheight)
 	{
-		return (0);
+		if (!tree->left && !tree->right)
+		{
+			return (1);
+		}
+		else if (tree->left && tree->right)
+		{
+			return
+				(binary_tree_is_perfect(tree->left)
+				&& binary_tree_is_perfect(tree->right));
+		}
 	}
-	return
-		(binary_tree_is_perfect(tree->left) && binary_tree_is_perfect(tree->right));
+	return (0);
 }
