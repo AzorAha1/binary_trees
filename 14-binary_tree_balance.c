@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-#define max(a, b) ((a) > (b) ? (a) : (b))
 /**
 * binary_tree_balance - checks balance factor
 * @tree: Pointer to the root node
@@ -31,5 +30,5 @@ int height(const binary_tree_t *tree)
 	int leftheight = height(tree->left);
 	int rightheight = height(tree->right);
 
-	return (1 + max(leftheight, rightheight));
+	return (1 + (leftheight > rightheight ? leftheight : rightheight));
 }
